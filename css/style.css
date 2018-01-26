@@ -1,0 +1,101 @@
+body{
+	margin: 0px;
+	background-color: wheat;
+}
+
+main{
+	background-image: url(../foto/background.jpg);
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 1000px;
+	margin: auto;
+	display: flex;
+	border: 10px solid firebrick;
+}
+
+#gues-code-table{
+	margin-top: 70px;
+	width: 85%;
+	position: relative;
+	right: 110px;
+}
+
+#gues-code-table tr{ 	
+	height: 75px;	
+}
+
+.bigball{
+	display: inline-block;;
+	border-radius: 50%;
+	box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);	
+	width: 35px;
+	height: 35px;
+	margin-left: 5%;		
+}
+
+#help-to-gues-code-table{
+	margin-top: 70px;
+	width: 15%;
+	position: relative;
+	right: 420px;
+}
+
+#help-to-gues-code-table tr{
+	height: 75px;			
+}
+
+.smallball{
+	display: inline-block;;
+	border-radius: 50%;
+	box-shadow: inset -25px -25px 40px rgba(0,0,0,.5);	
+	width: 15px;
+	height: 15px;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+
+#checkbutton{	
+	margin-top: 10px;
+	background-color: firebrick;
+	border: 3px solid black;
+	height: 50px;
+	width: 400px;
+	position: relative;
+	left: 130px;	
+	font-size: 140%;
+}
+
+#winscreen {	
+	position: fixed;
+	top: 35%;
+	left: 36%;
+	background-color: firebrick;
+	background-repeat: no-repeat;	
+	height: 100px;
+	width: 400px;
+	font-size: 250%;
+	text-align: center;
+	border: 10px solid black;
+	padding-top: 70px;
+}
+
+p {
+	position: relative;
+	top: 5%;
+	margin-left: 40px;
+	text-align: center;
+	font-size: 120%;
+	color: white;
+
+}
+
+#startbutton{	
+	background-color: firebrick;
+	border: 3px solid black;
+	height: 50px;
+	width: 400px;
+	position: absolute;
+	top: 250px;
+	left: 550px;	
+	font-size: 140%;
+}

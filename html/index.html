@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mastermind</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<main id="main">
+		<form id="invulveld">
+			<p>
+				Hoeveel kleuren de code bevat die je moet raden<br>
+		 	 	<input id="inputcode" type="number" min="2" max="6">
+		 	</p>		  	
+		 	<p>
+		 		Hoeveel kleuren in het spel mee spelen<br>
+		 		<input id="inputcolors" type="number" min="2" max="10">
+		 	<p>
+		</form>
+		<button onclick="createGame()" id="startbutton">Start Game</button>
+	</main>
+	<script src="../js/game.js"></script>
+</body>
+</html>
