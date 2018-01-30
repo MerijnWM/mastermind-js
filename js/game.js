@@ -6,12 +6,9 @@ var checkbutton = document.createElement("button");
 var curruntcolor = -1;
 var currentRownummer = 1;
 var smallballcount = 0;
-var balls = "";
-var colors = "";
-var gues = "";
+var balls = ""; var colors = ""; var gues = "";
 
-
-function createGame(){	
+function createGame(){
 	balls = document.getElementById("inputcode").value;
 	colors = document.getElementById("inputcolors").value;	
 	gues = [color[getRandomColor()],color[getRandomColor()],color[getRandomColor()],color[getRandomColor()],color[getRandomColor()],color[getRandomColor()]];
@@ -93,7 +90,7 @@ function checkCode(){
 			smallballcount = smallballcount+1;
 		}	
 	}
-	if(smallballcount == 6 ){
+	if(smallballcount == balls ){
 		var winscreen = document.createElement("div");
 		main.appendChild(winscreen);
 		winscreen.id = "winscreen";
